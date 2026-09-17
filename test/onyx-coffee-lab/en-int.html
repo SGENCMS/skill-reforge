@@ -1,6 +1,17 @@
 <!doctype html>
 <html lang="en">
-  <head><script>window.__SR_BASE__="";</script>
+  <head><script>window.__SR_BASE__="";function fixCustomPropUrls(style, baseURI) {
+  return String(style).split(';').map(function (decl) {
+    if (!/^\s*--[A-Za-z0-9_-]+\s*:/.test(decl)) return decl;
+    return decl.replace(/url\((\s*['"]?)([^)'"]+)(['"]?\s*)\)/g, function (m, q1, ref, q2) {
+      if (/^(?:[a-zA-Z][a-zA-Z0-9+.-]*:|\/|#)/.test(ref)) return m;
+      try {
+        var u = new URL(ref, baseURI);
+        return 'url(' + q1 + u.pathname + u.search + u.hash + q2 + ')';
+      } catch (e) { return m; }
+    });
+  }).join(';');
+};(function(){function run(){var n=document.querySelectorAll('[style*="url("]');for(var i=0;i<n.length;i++){var s=n[i].getAttribute("style"),o=fixCustomPropUrls(s,document.baseURI);if(o!==s)n[i].setAttribute("style",o);}}if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",run);else run();})();</script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
