@@ -348,8 +348,8 @@ COLLECT TEMPLATE COLORS WITH WHITE/BLACK FALLBACKS
       width: 10px;
       height: 10px;
       background-color: currentColor;
-      -webkit-mask-image: url("/assets/85794179-chevron-down-white.svg");
-      mask-image: url("/assets/85794179-chevron-down-white.svg");
+      -webkit-mask-image: url("../assets/85794179-chevron-down-white.svg");
+      mask-image: url("../assets/85794179-chevron-down-white.svg");
       -webkit-mask-position: center;
       mask-position: center;
       -webkit-mask-repeat: no-repeat;
@@ -807,8 +807,8 @@ COLLECT TEMPLATE COLORS WITH WHITE/BLACK FALLBACKS
       height: var(--reviews-reply-icon-size);
       flex: 0 0 auto;
       background: currentColor;
-      -webkit-mask-image: url("/assets/93950d20-favicon-dark.svg");
-      mask-image: url("/assets/93950d20-favicon-dark.svg");
+      -webkit-mask-image: url("../assets/93950d20-favicon-dark.svg");
+      mask-image: url("../assets/93950d20-favicon-dark.svg");
       -webkit-mask-position: center;
       mask-position: center;
       -webkit-mask-repeat: no-repeat;
