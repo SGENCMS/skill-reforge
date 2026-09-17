@@ -1,0 +1,12 @@
+{
+  "schema": "site-reforge/decontamination@1",
+  "generated": "2026-09-17T22:27:22.640Z",
+  "target": "C:\\Users\\JEROME~1.DES\\AppData\\Local\\Temp\\claude\\A--AI-Clients-SGEN\\79efd09e-cfc3-41e1-bffa-123eca5c9c91\\scratchpad\\onyx2\\clean",
+  "filesFound": 58,
+  "filesScanned": 58,
+  "filesSkipped": 0,
+  "counts": {},
+  "clean": true,
+  "verdict": "CLEAN",
+  "findings": []
+}
