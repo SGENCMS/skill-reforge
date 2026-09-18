@@ -1,21 +1,3 @@
-# we use Shopify as our ecommerce platform
-
+# This is a TEST CLONE served for review. It is not the client's site and must not be indexed.
 User-agent: *
-
-User-agent: adsbot-google
-
-User-agent: Nutch
-
-User-agent: AhrefsBot
-Crawl-delay: 10
-
-User-agent: AhrefsSiteAudit
-Crawl-delay: 10
-
-User-agent: MJ12bot
-Crawl-delay: 10
-
-User-agent: Pinterest
-Crawl-delay: 1
-
-Sitemap: https://onyxcoffeelab.com/sitemap.xml
+Disallow: /

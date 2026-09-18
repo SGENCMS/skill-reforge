@@ -16,6 +16,17 @@ Static, no build step. This folder is a TEST OUTPUT of the skill, not the client
 | SEO | emitted robots.txt, sitemap.xml, llms.txt · repaired 129 empty field(s) · migration blockers: 0 |
 | Third-party hosts kept | www.google.com |
 
+## What this PUBLISHED copy changes from the graded build
+
+The clone under `reports/` was graded as built. Three things are different in the copy served here,
+because a faithful copy of a live site on a public host competes with that site for its own terms:
+
+- `<meta name="robots">` is **noindex, nofollow** on all 43 pages (the build inherits the original's `index, follow`)
+- `<link rel="canonical">` points at the **absolute url of the page it was cloned from** (43 pages)
+- `robots.txt` is **Disallow: /**, and carries no sitemap
+
+Nothing else — no content, markup, styling or asset differs from the graded build.
+
 ## Preview locally
 
 ```bash
