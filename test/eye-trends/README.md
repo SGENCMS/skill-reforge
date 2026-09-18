@@ -1,6 +1,6 @@
 # eye-trends — site-reforge test site
 
-Clean static clone of **https://eyetrendsclearlake.com**, built by the site-reforge skill. Captured 2026-09-17T20:38:57.116Z.
+Clean static clone of **https://eyetrendsclearlake.com/**, built by the site-reforge skill. Captured 2026-09-17T20:38:57.116Z.
 Static, no build step. This folder is a TEST OUTPUT of the skill, not the client's official site.
 
 ## Verified — every number below is read from `reports/`

@@ -15,7 +15,7 @@
 
 # onyx-coffee-lab — site-reforge test site
 
-Clean static clone of **https://onyxcoffeelab.com**, built by the site-reforge skill. Captured 2026-09-17T22:27:28.291Z.
+Clean static clone of **https://onyxcoffeelab.com/**, built by the site-reforge skill. Captured 2026-09-17T22:41:31.649Z.
 Static, no build step. This folder is a TEST OUTPUT of the skill, not the client's official site.
 
 ## Verified — every number below is read from `reports/`
